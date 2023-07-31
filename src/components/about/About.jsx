@@ -22,26 +22,27 @@ const About = () => {
             <article className="about_card">
               <FaAward className="about_icon" />
               <h5>Expirience</h5>
-              <small>3+ Years Working</small>
+              <small>1+ Years Working</small>
             </article>
 
             <article className="about_card">
               <FiUsers className="about_icon" />
-              <h5>Clients</h5>
-              <small>200+ Worldwide</small>
+              <h5>Internships</h5>
+              <small>3 months - Bluestudio</small>
             </article>
 
             <article className="about_card">
               <RiFoldersLine className="about_icon" />
               <h5>Projects</h5>
-              <small>200+ Completed</small>
+              <small>40+ Completed</small>
             </article>
           </div>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime,
-            nisi? Explicabo magni nisi, dolor optio dolore labore sequi ullam
-            iusto tempora. Nobis maiores fugiat ullam accusantium est nemo quasi
-            unde.
+            Hello, I am a self-taught programmer, I have more than a year of
+            coding in my fingers, I have an incredible desire and motivation for
+            further learning and advancement. I want to perfect the technologies
+            I'm already working on and learn many more new things. I would say
+            that I am responsible, promising and an excellent team player!
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's talk

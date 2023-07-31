@@ -14,25 +14,25 @@ const data = [
     avatar: AVTR1,
     name: "Tina Snow",
     review:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi quidem nobis omnis beatae incidunt  accusamus quasi, aut reiciendis eum dolore eaque optio nemo. Modi porro facere atque non.",
+      "Gavrilo is the type of person who cares about his work. He is constantly working on improving himself and further learning. In a year of learning through the Internet and courses, he reached an excellent level of knowledge.",
   },
   {
     avatar: AVTR2,
     name: "Shata Wale",
     review:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi quidem nobis omnis beatae incidunt quibusdam laudantium accusamus quasi, aut reiciendis eum dolore eaque optio nemo.  non.",
+      "Above all, a team player, he always makes sure that everyone around him feels good. Always willing to listen, and always willing to help. If you decide to give it a chance, I'm sure it will be the right decision!",
   },
   {
     avatar: AVTR3,
     name: "Kwame Despite",
     review:
-      "Lorem ipsum, consectetur adipisicing elit. Modi quidem nobis omnis beatae incidunt quibusdam laudantium accusamus quasi, aut reiciendis eum dolore eaque optio nemo. Modi porro facere atque non.",
+      "The path to becoming a programmer without university knowledge and a diploma is very demanding and difficult. You never gave up, with the right people and a good team the sky is the limit!",
   },
   {
     avatar: AVTR4,
     name: "Nana Ama McBrown",
     review:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi quidem nobis omnis beatae incidunt quibusdam laudantium accusamus quasi, aut reiciendis eum dolore eaque optio nemo.",
+      "Someone who has done more than 200 hackerrank tasks of all weights, just looking at Harvard's CS50 course. Someone who learned HTML, CSS, JavaScript through YouTube and React through an online course. Someone who has the desire to become a good fullstack developer as soon as possible!",
   },
 ];
 

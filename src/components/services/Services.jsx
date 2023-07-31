@@ -11,88 +11,93 @@ const Services = () => {
       <div className="container services_container">
         <article className="service">
           <div className="service_head">
-            <h3>UI/X Design</h3>
+            <h3>JavaScript</h3>
           </div>
           <ul className="service_list">
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+              <p>Excellent handling of Variables and Data Types</p>
             </li>
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+              <p>Good knowledge and working with functions</p>
             </li>
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+              <p>
+                Excellent knowledge and extensive experience in working with
+                loops
+              </p>
             </li>
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+              <p>A large number of projects with loops and arrays</p>
             </li>
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+              <p>Basic knowledge and use of Asynchronous programming</p>
             </li>
           </ul>
         </article>
 
         <article className="service">
           <div className="service_head">
-            <h3>Web Development</h3>
+            <h3>React</h3>
           </div>
           <ul className="service_list">
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+              <p>Experienced and good handling of components</p>
             </li>
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+              <p>Precise and clean JSX syntax writing</p>
             </li>
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+              <p>
+                Good handling and necessary experience in working with Hooks
+              </p>
             </li>
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+              <p>Knowing and working with the Context API</p>
             </li>
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+              <p>A small number of projects with React Router</p>
             </li>
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+              <p>Implementation and quick navigation in Libraries</p>
             </li>
           </ul>
         </article>
 
         <article className="service">
           <div className="service_head">
-            <h3>Content Creation</h3>
+            <h3>CSS/SCSS</h3>
           </div>
           <ul className="service_list">
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+              <p>A large number of projects done in pure CSS</p>
             </li>
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+              <p>Excellent knowledge of flex and good knowledge of grid</p>
             </li>
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+              <p>Work with simple and complex animations</p>
             </li>
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+              <p>Frequent use and work with pseudo-classes</p>
             </li>
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+              <p>Mediocre experience with designing for tablets and phones</p>
             </li>
           </ul>
         </article>

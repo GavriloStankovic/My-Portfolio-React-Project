@@ -1,53 +1,56 @@
 import React from "react";
-import IMG1 from "../../assets/portfolio1.jpg";
-import IMG2 from "../../assets/portfolio2.jpg";
-import IMG3 from "../../assets/portfolio3.jpg";
-import IMG4 from "../../assets/portfolio4.jpg";
-import IMG5 from "../../assets/portfolio5.png";
-import IMG6 from "../../assets/portfolio6.jpg";
+import IMG1 from "../../assets/extract1.jpg";
+import IMG2 from "../../assets/realestate.png";
+import IMG3 from "../../assets/fitness.png";
+import IMG4 from "../../assets/dogs.jpg";
+import IMG5 from "../../assets/richest.png";
+import IMG6 from "../../assets/books.jpg";
 import "./Portfolio.css";
 
 const data = [
   {
     id: 1,
     image: IMG1,
-    title: "Crypto Currency Dashboard & Financial Visualization",
-    github: "https://github.com",
+    title: "Extract Craft Shop via Figma - React App",
+    github: "https://github.com/GavriloStankovic/Extract-Craft",
     demo: "https://dribbble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data-visualization",
   },
   {
     id: 2,
     image: IMG2,
-    title: "Charts templates & infographics in Figma",
-    github: "https://github.com",
+    title: "Buy Real Estate - Responsive React App",
+    github:
+      "https://github.com/GavriloStankovic/Real-Estate-Responsive-Web-App",
     demo: "https://dribbble.com/shots/16580766-Orion-UI-kit-Charts-templates-infographics-in-Figma",
   },
   {
     id: 3,
     image: IMG3,
-    title: "Figma dashboard UI kit for data design web apps",
-    github: "https://github.com",
+    title: "Fitness Shop - Responsive React App",
+    github:
+      "https://github.com/GavriloStankovic/Fitness-App-Responsive-React-App",
     demo: "https://dribbble.com/shots/17290917-Eclipse-Figma-dashboard-UI-kit-for-data-design-web-apps",
   },
   {
     id: 4,
     image: IMG4,
-    title: "Maintaining tasks and tracking progress",
-    github: "https://github.com",
+    title: "Dogs App - Fetch/Promises/Async/Await",
+    github:
+      "https://github.com/GavriloStankovic/Dogs-App-Fetch-Promises-Async-Await",
     demo: "https://dribbble.com/shots/1695582-Maintaining-tasks-and-tracking-progress",
   },
   {
     id: 5,
     image: IMG5,
-    title: "Charts templates & infographics in Figma",
-    github: "https://github.com",
+    title: "Top 10 Richest People in the world - Drag and Drop",
+    github: "https://github.com/GavriloStankovic/Top-10-Richest-People",
     demo: "https://dribbble.com/shots/16541289-Orion-UI-kit-Charts-templates-infographics-in-Figma",
   },
   {
     id: 6,
     image: IMG6,
-    title: "Charts templates & infographics in Figma",
-    github: "https://github.com",
+    title: "Books List - JavaScript App",
+    github: "https://github.com/GavriloStankovic/Books-List-App",
     demo: "https://dribbble.com/shots/15887665-Orion-UI-kit-Charts-templates-infographics-in-Figma",
   },
 ];
