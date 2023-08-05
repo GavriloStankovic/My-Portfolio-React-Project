@@ -2,7 +2,7 @@ import React from "react";
 import IMG1 from "../../assets/extract1.jpg";
 import IMG2 from "../../assets/realestate.png";
 import IMG3 from "../../assets/fitness.png";
-import IMG4 from "../../assets/dogs.jpg";
+import IMG4 from "../../assets/Travel UI.jpg";
 import IMG5 from "../../assets/richest.png";
 import IMG6 from "../../assets/books.jpg";
 import "./Portfolio.css";
@@ -13,7 +13,7 @@ const data = [
     image: IMG1,
     title: "Extract Craft Shop via Figma - React App",
     github: "https://github.com/GavriloStankovic/Extract-Craft",
-    demo: "https://dribbble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data-visualization",
+    demo: "https://intership-extract-craft-project.netlify.app",
   },
   {
     id: 2,
@@ -21,7 +21,8 @@ const data = [
     title: "Buy Real Estate - Responsive React App",
     github:
       "https://github.com/GavriloStankovic/Real-Estate-Responsive-Web-App",
-    demo: "https://dribbble.com/shots/16580766-Orion-UI-kit-Charts-templates-infographics-in-Figma",
+    demo:
+      "https://dribbble.com/shots/16580766-Orion-UI-kit-Charts-templates-infographics-in-Figma",
   },
   {
     id: 3,
@@ -29,29 +30,32 @@ const data = [
     title: "Fitness Shop - Responsive React App",
     github:
       "https://github.com/GavriloStankovic/Fitness-App-Responsive-React-App",
-    demo: "https://dribbble.com/shots/17290917-Eclipse-Figma-dashboard-UI-kit-for-data-design-web-apps",
+    demo:
+      "https://dribbble.com/shots/17290917-Eclipse-Figma-dashboard-UI-kit-for-data-design-web-apps",
   },
   {
     id: 4,
     image: IMG4,
-    title: "Dogs App - Fetch/Promises/Async/Await",
+    title: "Travel and Tour Webiste - Responsive React App",
     github:
-      "https://github.com/GavriloStankovic/Dogs-App-Fetch-Promises-Async-Await",
-    demo: "https://dribbble.com/shots/1695582-Maintaining-tasks-and-tracking-progress",
+      "https://github.com/GavriloStankovic/Tour-and-Travel-Website-Responsive-React-App",
+    demo: "https://travel-and-tour-responsive-webiste.netlify.app/",
   },
   {
     id: 5,
     image: IMG5,
     title: "Top 10 Richest People in the world - Drag and Drop",
     github: "https://github.com/GavriloStankovic/Top-10-Richest-People",
-    demo: "https://dribbble.com/shots/16541289-Orion-UI-kit-Charts-templates-infographics-in-Figma",
+    demo:
+      "https://dribbble.com/shots/16541289-Orion-UI-kit-Charts-templates-infographics-in-Figma",
   },
   {
     id: 6,
     image: IMG6,
     title: "Books List - JavaScript App",
     github: "https://github.com/GavriloStankovic/Books-List-App",
-    demo: "https://dribbble.com/shots/15887665-Orion-UI-kit-Charts-templates-infographics-in-Figma",
+    demo:
+      "https://dribbble.com/shots/15887665-Orion-UI-kit-Charts-templates-infographics-in-Figma",
   },
 ];
 
