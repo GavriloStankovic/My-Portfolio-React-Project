@@ -5,6 +5,7 @@ import IMG3 from "../../assets/fitness.png";
 import IMG4 from "../../assets/Travel UI.jpg";
 import IMG5 from "../../assets/richest.png";
 import IMG6 from "../../assets/books.jpg";
+import IMG7 from "../../assets/ai.png";
 import "./Portfolio.css";
 
 const data = [
@@ -21,8 +22,7 @@ const data = [
     title: "Buy Real Estate - Responsive React App",
     github:
       "https://github.com/GavriloStankovic/Real-Estate-Responsive-Web-App",
-    demo:
-      "https://dribbble.com/shots/16580766-Orion-UI-kit-Charts-templates-infographics-in-Figma",
+    demo: "https://dribbble.com/shots/16580766-Orion-UI-kit-Charts-templates-infographics-in-Figma",
   },
   {
     id: 3,
@@ -30,8 +30,7 @@ const data = [
     title: "Fitness Shop - Responsive React App",
     github:
       "https://github.com/GavriloStankovic/Fitness-App-Responsive-React-App",
-    demo:
-      "https://dribbble.com/shots/17290917-Eclipse-Figma-dashboard-UI-kit-for-data-design-web-apps",
+    demo: "https://dribbble.com/shots/17290917-Eclipse-Figma-dashboard-UI-kit-for-data-design-web-apps",
   },
   {
     id: 4,
@@ -46,16 +45,22 @@ const data = [
     image: IMG5,
     title: "Top 10 Richest People in the world - Drag and Drop",
     github: "https://github.com/GavriloStankovic/Top-10-Richest-People",
-    demo:
-      "https://dribbble.com/shots/16541289-Orion-UI-kit-Charts-templates-infographics-in-Figma",
+    demo: "https://dribbble.com/shots/16541289-Orion-UI-kit-Charts-templates-infographics-in-Figma",
   },
   {
     id: 6,
     image: IMG6,
     title: "Books List - JavaScript App",
     github: "https://github.com/GavriloStankovic/Books-List-App",
-    demo:
-      "https://dribbble.com/shots/15887665-Orion-UI-kit-Charts-templates-infographics-in-Figma",
+    demo: "https://dribbble.com/shots/15887665-Orion-UI-kit-Charts-templates-infographics-in-Figma",
+  },
+  {
+    id: 7,
+    image: IMG7,
+    title: "ChatGPT3 Website - React Responsive App",
+    github:
+      "https://github.com/GavriloStankovic/ChatGPT3-Website-React-Resposnive-App",
+    demo: "https://chatgpt-webiste.netlify.app/",
   },
 ];
 
