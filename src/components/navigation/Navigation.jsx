@@ -15,13 +15,11 @@ const Navigation = () => {
       const windowHeight = window.innerHeight;
       const scrollPosition = window.scrollY;
 
-      const homeSection = document.getElementById("home");
       const aboutSection = document.getElementById("about");
       const experienceSection = document.getElementById("experience");
       const servicesSection = document.getElementById("services");
       const contactSection = document.getElementById("contact");
 
-      const homeThreshold = homeSection.offsetTop - windowHeight / 2;
       const aboutThreshold = aboutSection.offsetTop - windowHeight / 2;
       const experienceThreshold =
         experienceSection.offsetTop - windowHeight / 2;
