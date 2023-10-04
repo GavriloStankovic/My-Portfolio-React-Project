@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Contact.css";
 import { MdOutlineEmail } from "react-icons/md";
 import { RiMessengerLine, RiWhatsappLine } from "react-icons/ri";
@@ -7,6 +7,7 @@ import emailjs from "emailjs-com";
 
 const Contact = () => {
   const form = useRef();
+  const [isMessageSent, setIsMessageSent] = useState(false);
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -21,6 +22,11 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
+          setIsMessageSent(true);
+
+          setTimeout(() => {
+            setIsMessageSent(false);
+          }, 4000);
         },
         (error) => {
           console.log(error.text);
@@ -90,6 +96,11 @@ const Contact = () => {
           <button type="submit" className="btn btn-primary">
             Send Message
           </button>
+          {isMessageSent && (
+            <div className="confirmation-message">
+              <p>Thank you! Your message has been sent.</p>
+            </div>
+          )}
         </form>
       </div>
     </section>
